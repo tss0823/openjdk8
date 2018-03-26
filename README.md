@@ -1,17 +1,27 @@
+# MAC编译OpenJDK8
+
+[TOC]
+
+
 ## 当前环境
 
 1. mac 10.13.2
 2. 系统已经安装了jdk "1.8.0_151"
 
-##依赖软件
+## 依赖软件
 - Xcode
 - llvm  
 ```
-sudo ln -s /usr/bin/llvm-g++ /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-g++  
+brew install llvm,之后生成引用文件
+sudo ln -s /usr/bin/llvm-g++ /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-g++
 sudo ln -s /usr/bin/llvm-gcc /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc 
 ```
 - freetype
 - XQuartz
+下载XQurtz,之后生成引用文件
+```
+sudo ln -s /usr/X11/include/X11 /usr/include/X11   
+```
 
 
 ## 编译步骤
