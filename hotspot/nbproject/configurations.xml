@@ -1,0 +1,4025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="agent">
+        <df name="src">
+          <df name="os">
+            <df name="bsd">
+              <in>BsdDebuggerLocal.c</in>
+              <in>MacosxDebuggerLocal.m</in>
+              <in>StubDebuggerLocal.c</in>
+              <in>libproc_impl.c</in>
+              <in>ps_core.c</in>
+              <in>ps_proc.c</in>
+              <in>salibelf.c</in>
+              <in>symtab.c</in>
+              <in>test.c</in>
+            </df>
+            <df name="linux">
+              <in>LinuxDebuggerLocal.c</in>
+              <in>libproc_impl.c</in>
+              <in>ps_core.c</in>
+              <in>ps_proc.c</in>
+              <in>salibelf.c</in>
+              <in>symtab.c</in>
+              <in>test.c</in>
+            </df>
+            <df name="solaris">
+              <df name="proc">
+                <in>saproc.cpp</in>
+                <in>saproc_audit.cpp</in>
+              </df>
+            </df>
+            <df name="win32">
+              <df name="windbg">
+                <in>sawindbg.cpp</in>
+              </df>
+            </df>
+          </df>
+          <df name="share">
+            <df name="native">
+              <in>sadis.c</in>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <df name="cpu">
+          <df name="sparc">
+            <df name="vm">
+              <in>args.cc</in>
+              <in>assembler_sparc.cpp</in>
+              <in>bytecodeInterpreter_sparc.cpp</in>
+              <in>bytecodes_sparc.cpp</in>
+              <in>c1_CodeStubs_sparc.cpp</in>
+              <in>c1_FpuStackSim_sparc.cpp</in>
+              <in>c1_FrameMap_sparc.cpp</in>
+              <in>c1_LIRAssembler_sparc.cpp</in>
+              <in>c1_LIRGenerator_sparc.cpp</in>
+              <in>c1_LinearScan_sparc.cpp</in>
+              <in>c1_MacroAssembler_sparc.cpp</in>
+              <in>c1_Runtime1_sparc.cpp</in>
+              <in>c2_init_sparc.cpp</in>
+              <in>compiledIC_sparc.cpp</in>
+              <in>cppInterpreter_sparc.cpp</in>
+              <in>debug_sparc.cpp</in>
+              <in>depChecker_sparc.cpp</in>
+              <in>frame_sparc.cpp</in>
+              <in>icBuffer_sparc.cpp</in>
+              <in>icache_sparc.cpp</in>
+              <in>interp_masm_sparc.cpp</in>
+              <in>interpreterRT_sparc.cpp</in>
+              <in>interpreter_sparc.cpp</in>
+              <in>jniFastGetField_sparc.cpp</in>
+              <in>macroAssembler_sparc.cpp</in>
+              <in>metaspaceShared_sparc.cpp</in>
+              <in>methodHandles_sparc.cpp</in>
+              <in>nativeInst_sparc.cpp</in>
+              <in>register_definitions_sparc.cpp</in>
+              <in>register_sparc.cpp</in>
+              <in>relocInfo_sparc.cpp</in>
+              <in>runtime_sparc.cpp</in>
+              <in>sharedRuntime_sparc.cpp</in>
+              <in>stubGenerator_sparc.cpp</in>
+              <in>stubRoutines_sparc.cpp</in>
+              <in>templateInterpreter_sparc.cpp</in>
+              <in>templateTable_sparc.cpp</in>
+              <in>vm_version_sparc.cpp</in>
+              <in>vmreg_sparc.cpp</in>
+              <in>vtableStubs_sparc.cpp</in>
+            </df>
+          </df>
+          <df name="x86">
+            <df name="vm">
+              <in>assembler_x86.cpp</in>
+              <in>bytecodeInterpreter_x86.cpp</in>
+              <in>bytecodes_x86.cpp</in>
+              <in>c1_CodeStubs_x86.cpp</in>
+              <in>c1_FpuStackSim_x86.cpp</in>
+              <in>c1_FrameMap_x86.cpp</in>
+              <in>c1_LIRAssembler_x86.cpp</in>
+              <in>c1_LIRGenerator_x86.cpp</in>
+              <in>c1_LinearScan_x86.cpp</in>
+              <in>c1_MacroAssembler_x86.cpp</in>
+              <in>c1_Runtime1_x86.cpp</in>
+              <in>c2_init_x86.cpp</in>
+              <in>compiledIC_x86.cpp</in>
+              <in>cppInterpreter_x86.cpp</in>
+              <in>debug_x86.cpp</in>
+              <in>depChecker_x86.cpp</in>
+              <in>frame_x86.cpp</in>
+              <in>icBuffer_x86.cpp</in>
+              <in>icache_x86.cpp</in>
+              <in>interp_masm_x86.cpp</in>
+              <in>interp_masm_x86_32.cpp</in>
+              <in>interp_masm_x86_64.cpp</in>
+              <in>interpreterRT_x86_32.cpp</in>
+              <in>interpreterRT_x86_64.cpp</in>
+              <in>interpreter_x86_32.cpp</in>
+              <in>interpreter_x86_64.cpp</in>
+              <in>jniFastGetField_x86_32.cpp</in>
+              <in>jniFastGetField_x86_64.cpp</in>
+              <in>macroAssembler_x86.cpp</in>
+              <in>metaspaceShared_x86_32.cpp</in>
+              <in>metaspaceShared_x86_64.cpp</in>
+              <in>methodHandles_x86.cpp</in>
+              <in>nativeInst_x86.cpp</in>
+              <in>register_definitions_x86.cpp</in>
+              <in>register_x86.cpp</in>
+              <in>relocInfo_x86.cpp</in>
+              <in>runtime_x86_32.cpp</in>
+              <in>runtime_x86_64.cpp</in>
+              <in>sharedRuntime_x86_32.cpp</in>
+              <in>sharedRuntime_x86_64.cpp</in>
+              <in>stubGenerator_x86_32.cpp</in>
+              <in>stubGenerator_x86_64.cpp</in>
+              <in>stubRoutines_x86.cpp</in>
+              <in>stubRoutines_x86_32.cpp</in>
+              <in>stubRoutines_x86_64.cpp</in>
+              <in>templateInterpreter_x86_32.cpp</in>
+              <in>templateInterpreter_x86_64.cpp</in>
+              <in>templateTable_x86_32.cpp</in>
+              <in>templateTable_x86_64.cpp</in>
+              <in>vm_version_x86.cpp</in>
+              <in>vmreg_x86.cpp</in>
+              <in>vtableStubs_x86_32.cpp</in>
+              <in>vtableStubs_x86_64.cpp</in>
+            </df>
+          </df>
+          <df name="zero">
+            <df name="vm">
+              <in>assembler_zero.cpp</in>
+              <in>bytecodeInterpreter_zero.cpp</in>
+              <in>bytecodes_zero.cpp</in>
+              <in>compiledIC_zero.cpp</in>
+              <in>cppInterpreter_zero.cpp</in>
+              <in>debug_zero.cpp</in>
+              <in>depChecker_zero.cpp</in>
+              <in>disassembler_zero.cpp</in>
+              <in>frame_zero.cpp</in>
+              <in>icBuffer_zero.cpp</in>
+              <in>icache_zero.cpp</in>
+              <in>interp_masm_zero.cpp</in>
+              <in>interpreterRT_zero.cpp</in>
+              <in>interpreter_zero.cpp</in>
+              <in>jniFastGetField_zero.cpp</in>
+              <in>metaspaceShared_zero.cpp</in>
+              <in>methodHandles_zero.cpp</in>
+              <in>nativeInst_zero.cpp</in>
+              <in>register_definitions_zero.cpp</in>
+              <in>register_zero.cpp</in>
+              <in>relocInfo_zero.cpp</in>
+              <in>sharedRuntime_zero.cpp</in>
+              <in>stack_zero.cpp</in>
+              <in>stubGenerator_zero.cpp</in>
+              <in>stubRoutines_zero.cpp</in>
+              <in>templateInterpreter_zero.cpp</in>
+              <in>templateTable_zero.cpp</in>
+              <in>vm_version_zero.cpp</in>
+              <in>vmreg_zero.cpp</in>
+              <in>vtableStubs_zero.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="os">
+          <df name="bsd">
+            <df name="dtrace">
+              <in>generateJvmOffsets.cpp</in>
+              <in>generateJvmOffsetsMain.c</in>
+              <in>jvm_dtrace.c</in>
+              <in>libjvm_db.c</in>
+            </df>
+            <df name="vm">
+              <in>attachListener_bsd.cpp</in>
+              <in>decoder_machO.cpp</in>
+              <in>dtraceJSDT_bsd.cpp</in>
+              <in>jsig.c</in>
+              <in>jvm_bsd.cpp</in>
+              <in>mutex_bsd.cpp</in>
+              <in>osThread_bsd.cpp</in>
+              <in>os_bsd.cpp</in>
+              <in>perfMemory_bsd.cpp</in>
+              <in>stubRoutines_bsd.cpp</in>
+              <in>threadCritical_bsd.cpp</in>
+              <in>vmError_bsd.cpp</in>
+            </df>
+          </df>
+          <df name="linux">
+            <df name="vm">
+              <in>attachListener_linux.cpp</in>
+              <in>decoder_linux.cpp</in>
+              <in>dtraceJSDT_linux.cpp</in>
+              <in>jsig.c</in>
+              <in>jvm_linux.cpp</in>
+              <in>mutex_linux.cpp</in>
+              <in>osThread_linux.cpp</in>
+              <in>os_linux.cpp</in>
+              <in>perfMemory_linux.cpp</in>
+              <in>stubRoutines_linux.cpp</in>
+              <in>threadCritical_linux.cpp</in>
+              <in>vmError_linux.cpp</in>
+            </df>
+          </df>
+          <df name="posix">
+            <df name="vm">
+              <in>os_posix.cpp</in>
+            </df>
+          </df>
+          <df name="solaris">
+            <df name="add_gnu_debuglink">
+              <in>add_gnu_debuglink.c</in>
+            </df>
+            <df name="dtrace">
+              <in>generateJvmOffsets.cpp</in>
+              <in>generateJvmOffsetsMain.c</in>
+              <in>jvm_dtrace.c</in>
+              <in>libjvm_db.c</in>
+            </df>
+            <df name="fix_empty_sec_hdr_flags">
+              <in>fix_empty_sec_hdr_flags.c</in>
+            </df>
+            <df name="vm">
+              <in>attachListener_solaris.cpp</in>
+              <in>decoder_solaris.cpp</in>
+              <in>dtraceJSDT_solaris.cpp</in>
+              <in>jsig.c</in>
+              <in>jvm_solaris.cpp</in>
+              <in>mutex_solaris.cpp</in>
+              <in>osThread_solaris.cpp</in>
+              <in>os_solaris.cpp</in>
+              <in>perfMemory_solaris.cpp</in>
+              <in>stubRoutines_solaris.cpp</in>
+              <in>threadCritical_solaris.cpp</in>
+              <in>vmError_solaris.cpp</in>
+            </df>
+          </df>
+          <df name="windows">
+            <df name="vm">
+              <in>attachListener_windows.cpp</in>
+              <in>decoder_windows.cpp</in>
+              <in>dtraceJSDT_windows.cpp</in>
+              <in>jvm_windows.cpp</in>
+              <in>mutex_windows.cpp</in>
+              <in>osThread_windows.cpp</in>
+              <in>os_windows.cpp</in>
+              <in>perfMemory_windows.cpp</in>
+              <in>stubRoutines_windows.cpp</in>
+              <in>threadCritical_windows.cpp</in>
+              <in>vmError_windows.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="os_cpu">
+          <df name="bsd_x86">
+            <df name="vm">
+              <in>assembler_bsd_x86.cpp</in>
+              <in>bsd_x86_32.s</in>
+              <in>bsd_x86_64.s</in>
+              <in>os_bsd_x86.cpp</in>
+              <in>threadLS_bsd_x86.cpp</in>
+              <in>thread_bsd_x86.cpp</in>
+              <in>vm_version_bsd_x86.cpp</in>
+            </df>
+          </df>
+          <df name="bsd_zero">
+            <df name="vm">
+              <in>assembler_bsd_zero.cpp</in>
+              <in>os_bsd_zero.cpp</in>
+              <in>threadLS_bsd_zero.cpp</in>
+              <in>thread_bsd_zero.cpp</in>
+              <in>vm_version_bsd_zero.cpp</in>
+            </df>
+          </df>
+          <df name="linux_sparc">
+            <df name="vm">
+              <in>linux_sparc.s</in>
+              <in>os_linux_sparc.cpp</in>
+              <in>threadLS_linux_sparc.cpp</in>
+              <in>thread_linux_sparc.cpp</in>
+              <in>vm_version_linux_sparc.cpp</in>
+            </df>
+          </df>
+          <df name="linux_x86">
+            <df name="vm">
+              <in>assembler_linux_x86.cpp</in>
+              <in>linux_x86_32.s</in>
+              <in>linux_x86_64.s</in>
+              <in>os_linux_x86.cpp</in>
+              <in>threadLS_linux_x86.cpp</in>
+              <in>thread_linux_x86.cpp</in>
+              <in>vm_version_linux_x86.cpp</in>
+            </df>
+          </df>
+          <df name="linux_zero">
+            <df name="vm">
+              <in>assembler_linux_zero.cpp</in>
+              <in>os_linux_zero.cpp</in>
+              <in>threadLS_linux_zero.cpp</in>
+              <in>thread_linux_zero.cpp</in>
+              <in>vm_version_linux_zero.cpp</in>
+            </df>
+          </df>
+          <df name="solaris_sparc">
+            <df name="vm">
+              <in>os_solaris_sparc.cpp</in>
+              <in>solaris_sparc.il</in>
+              <in>solaris_sparc.s</in>
+              <in>threadLS_solaris_sparc.cpp</in>
+              <in>thread_solaris_sparc.cpp</in>
+              <in>vm_version_solaris_sparc.cpp</in>
+            </df>
+          </df>
+          <df name="solaris_x86">
+            <df name="vm">
+              <in>assembler_solaris_x86.cpp</in>
+              <in>os_solaris_x86.cpp</in>
+              <in>solaris_x86_32.il</in>
+              <in>solaris_x86_32.s</in>
+              <in>solaris_x86_64.il</in>
+              <in>solaris_x86_64.s</in>
+              <in>threadLS_solaris_x86.cpp</in>
+              <in>thread_solaris_x86.cpp</in>
+              <in>vm_version_solaris_x86.cpp</in>
+            </df>
+          </df>
+          <df name="windows_x86">
+            <df name="vm">
+              <in>assembler_windows_x86.cpp</in>
+              <in>os_windows_x86.cpp</in>
+              <in>threadLS_windows_x86.cpp</in>
+              <in>thread_windows_x86.cpp</in>
+              <in>vm_version_windows_x86.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="share">
+          <df name="tools">
+            <df name="hsdis">
+              <in>hsdis-demo.c</in>
+              <in>hsdis.c</in>
+            </df>
+          </df>
+          <df name="vm">
+            <df name="adlc">
+              <in>adlparse.cpp</in>
+              <in>archDesc.cpp</in>
+              <in>arena.cpp</in>
+              <in>dfa.cpp</in>
+              <in>dict2.cpp</in>
+              <in>filebuff.cpp</in>
+              <in>forms.cpp</in>
+              <in>formsopt.cpp</in>
+              <in>formssel.cpp</in>
+              <in>main.cpp</in>
+              <in>output_c.cpp</in>
+              <in>output_h.cpp</in>
+            </df>
+            <df name="asm">
+              <in>assembler.cpp</in>
+              <in>codeBuffer.cpp</in>
+              <in>register.cpp</in>
+            </df>
+            <df name="c1">
+              <in>c1_CFGPrinter.cpp</in>
+              <in>c1_Canonicalizer.cpp</in>
+              <in>c1_Compilation.cpp</in>
+              <in>c1_Compiler.cpp</in>
+              <in>c1_Defs.cpp</in>
+              <in>c1_FrameMap.cpp</in>
+              <in>c1_GraphBuilder.cpp</in>
+              <in>c1_IR.cpp</in>
+              <in>c1_Instruction.cpp</in>
+              <in>c1_InstructionPrinter.cpp</in>
+              <in>c1_LIR.cpp</in>
+              <in>c1_LIRAssembler.cpp</in>
+              <in>c1_LIRGenerator.cpp</in>
+              <in>c1_LinearScan.cpp</in>
+              <in>c1_Optimizer.cpp</in>
+              <in>c1_RangeCheckElimination.cpp</in>
+              <in>c1_Runtime1.cpp</in>
+              <in>c1_ValueMap.cpp</in>
+              <in>c1_ValueSet.cpp</in>
+              <in>c1_ValueStack.cpp</in>
+              <in>c1_ValueType.cpp</in>
+              <in>c1_globals.cpp</in>
+            </df>
+            <df name="ci">
+              <in>bcEscapeAnalyzer.cpp</in>
+              <in>ciArray.cpp</in>
+              <in>ciArrayKlass.cpp</in>
+              <in>ciBaseObject.cpp</in>
+              <in>ciCallSite.cpp</in>
+              <in>ciConstant.cpp</in>
+              <in>ciConstantPoolCache.cpp</in>
+              <in>ciEnv.cpp</in>
+              <in>ciExceptionHandler.cpp</in>
+              <in>ciField.cpp</in>
+              <in>ciFlags.cpp</in>
+              <in>ciInstance.cpp</in>
+              <in>ciInstanceKlass.cpp</in>
+              <in>ciKlass.cpp</in>
+              <in>ciMemberName.cpp</in>
+              <in>ciMetadata.cpp</in>
+              <in>ciMethod.cpp</in>
+              <in>ciMethodBlocks.cpp</in>
+              <in>ciMethodData.cpp</in>
+              <in>ciMethodHandle.cpp</in>
+              <in>ciNullObject.cpp</in>
+              <in>ciObjArray.cpp</in>
+              <in>ciObjArrayKlass.cpp</in>
+              <in>ciObject.cpp</in>
+              <in>ciObjectFactory.cpp</in>
+              <in>ciReplay.cpp</in>
+              <in>ciSignature.cpp</in>
+              <in>ciStreams.cpp</in>
+              <in>ciSymbol.cpp</in>
+              <in>ciType.cpp</in>
+              <in>ciTypeArray.cpp</in>
+              <in>ciTypeArrayKlass.cpp</in>
+              <in>ciTypeFlow.cpp</in>
+              <in>ciUtilities.cpp</in>
+            </df>
+            <df name="classfile">
+              <in>altHashing.cpp</in>
+              <in>bytecodeAssembler.cpp</in>
+              <in>classFileError.cpp</in>
+              <in>classFileParser.cpp</in>
+              <in>classFileStream.cpp</in>
+              <in>classLoader.cpp</in>
+              <in>classLoaderData.cpp</in>
+              <in>defaultMethods.cpp</in>
+              <in>dictionary.cpp</in>
+              <in>javaAssertions.cpp</in>
+              <in>javaClasses.cpp</in>
+              <in>loaderConstraints.cpp</in>
+              <in>metadataOnStackMark.cpp</in>
+              <in>placeholders.cpp</in>
+              <in>resolutionErrors.cpp</in>
+              <in>stackMapFrame.cpp</in>
+              <in>stackMapTable.cpp</in>
+              <in>symbolTable.cpp</in>
+              <in>systemDictionary.cpp</in>
+              <in>verificationType.cpp</in>
+              <in>verifier.cpp</in>
+              <in>vmSymbols.cpp</in>
+            </df>
+            <df name="code">
+              <in>codeBlob.cpp</in>
+              <in>codeCache.cpp</in>
+              <in>compiledIC.cpp</in>
+              <in>compressedStream.cpp</in>
+              <in>debugInfo.cpp</in>
+              <in>debugInfoRec.cpp</in>
+              <in>dependencies.cpp</in>
+              <in>exceptionHandlerTable.cpp</in>
+              <in>icBuffer.cpp</in>
+              <in>location.cpp</in>
+              <in>nmethod.cpp</in>
+              <in>oopRecorder.cpp</in>
+              <in>pcDesc.cpp</in>
+              <in>relocInfo.cpp</in>
+              <in>scopeDesc.cpp</in>
+              <in>stubs.cpp</in>
+              <in>vmreg.cpp</in>
+              <in>vtableStubs.cpp</in>
+            </df>
+            <df name="compiler">
+              <in>abstractCompiler.cpp</in>
+              <in>compileBroker.cpp</in>
+              <in>compileLog.cpp</in>
+              <in>compilerOracle.cpp</in>
+              <in>disassembler.cpp</in>
+              <in>methodLiveness.cpp</in>
+              <in>oopMap.cpp</in>
+            </df>
+            <df name="gc_implementation">
+              <df name="concurrentMarkSweep">
+                <in>adaptiveFreeList.cpp</in>
+                <in>cmsAdaptiveSizePolicy.cpp</in>
+                <in>cmsCollectorPolicy.cpp</in>
+                <in>cmsGCAdaptivePolicyCounters.cpp</in>
+                <in>cmsLockVerifier.cpp</in>
+                <in>compactibleFreeListSpace.cpp</in>
+                <in>concurrentMarkSweepGeneration.cpp</in>
+                <in>concurrentMarkSweepThread.cpp</in>
+                <in>freeChunk.cpp</in>
+                <in>promotionInfo.cpp</in>
+                <in>vmCMSOperations.cpp</in>
+              </df>
+              <df name="g1">
+                <in>collectionSetChooser.cpp</in>
+                <in>concurrentG1Refine.cpp</in>
+                <in>concurrentG1RefineThread.cpp</in>
+                <in>concurrentMark.cpp</in>
+                <in>concurrentMarkThread.cpp</in>
+                <in>dirtyCardQueue.cpp</in>
+                <in>g1AllocRegion.cpp</in>
+                <in>g1BiasedArray.cpp</in>
+                <in>g1BlockOffsetTable.cpp</in>
+                <in>g1CardCounts.cpp</in>
+                <in>g1CollectedHeap.cpp</in>
+                <in>g1CollectorPolicy.cpp</in>
+                <in>g1ErgoVerbose.cpp</in>
+                <in>g1GCPhaseTimes.cpp</in>
+                <in>g1HRPrinter.cpp</in>
+                <in>g1HotCardCache.cpp</in>
+                <in>g1Log.cpp</in>
+                <in>g1MMUTracker.cpp</in>
+                <in>g1MarkSweep.cpp</in>
+                <in>g1MonitoringSupport.cpp</in>
+                <in>g1RemSet.cpp</in>
+                <in>g1RemSetSummary.cpp</in>
+                <in>g1SATBCardTableModRefBS.cpp</in>
+                <in>g1_globals.cpp</in>
+                <in>heapRegion.cpp</in>
+                <in>heapRegionRemSet.cpp</in>
+                <in>heapRegionSeq.cpp</in>
+                <in>heapRegionSet.cpp</in>
+                <in>heapRegionSets.cpp</in>
+                <in>ptrQueue.cpp</in>
+                <in>satbQueue.cpp</in>
+                <in>sparsePRT.cpp</in>
+                <in>survRateGroup.cpp</in>
+                <in>vm_operations_g1.cpp</in>
+              </df>
+              <df name="parallelScavenge">
+                <in>adjoiningGenerations.cpp</in>
+                <in>adjoiningVirtualSpaces.cpp</in>
+                <in>asPSOldGen.cpp</in>
+                <in>asPSYoungGen.cpp</in>
+                <in>cardTableExtension.cpp</in>
+                <in>gcTaskManager.cpp</in>
+                <in>gcTaskThread.cpp</in>
+                <in>generationSizer.cpp</in>
+                <in>objectStartArray.cpp</in>
+                <in>parMarkBitMap.cpp</in>
+                <in>parallelScavengeHeap.cpp</in>
+                <in>pcTasks.cpp</in>
+                <in>psAdaptiveSizePolicy.cpp</in>
+                <in>psCompactionManager.cpp</in>
+                <in>psGCAdaptivePolicyCounters.cpp</in>
+                <in>psGenerationCounters.cpp</in>
+                <in>psMarkSweep.cpp</in>
+                <in>psMarkSweepDecorator.cpp</in>
+                <in>psOldGen.cpp</in>
+                <in>psParallelCompact.cpp</in>
+                <in>psPromotionLAB.cpp</in>
+                <in>psPromotionManager.cpp</in>
+                <in>psScavenge.cpp</in>
+                <in>psTasks.cpp</in>
+                <in>psVirtualspace.cpp</in>
+                <in>psYoungGen.cpp</in>
+                <in>vmPSOperations.cpp</in>
+              </df>
+              <df name="parNew">
+                <in>asParNewGeneration.cpp</in>
+                <in>parCardTableModRefBS.cpp</in>
+                <in>parNewGeneration.cpp</in>
+              </df>
+              <df name="shared">
+                <in>adaptiveSizePolicy.cpp</in>
+                <in>ageTable.cpp</in>
+                <in>allocationStats.cpp</in>
+                <in>cSpaceCounters.cpp</in>
+                <in>collectorCounters.cpp</in>
+                <in>concurrentGCThread.cpp</in>
+                <in>gSpaceCounters.cpp</in>
+                <in>gcAdaptivePolicyCounters.cpp</in>
+                <in>gcPolicyCounters.cpp</in>
+                <in>gcStats.cpp</in>
+                <in>gcTimer.cpp</in>
+                <in>gcTrace.cpp</in>
+                <in>gcTraceSend.cpp</in>
+                <in>gcTraceTime.cpp</in>
+                <in>gcUtil.cpp</in>
+                <in>generationCounters.cpp</in>
+                <in>hSpaceCounters.cpp</in>
+                <in>immutableSpace.cpp</in>
+                <in>markSweep.cpp</in>
+                <in>mutableNUMASpace.cpp</in>
+                <in>mutableSpace.cpp</in>
+                <in>objectCountEventSender.cpp</in>
+                <in>parGCAllocBuffer.cpp</in>
+                <in>spaceCounters.cpp</in>
+                <in>spaceDecorator.cpp</in>
+                <in>vmGCOperations.cpp</in>
+              </df>
+            </df>
+            <df name="gc_interface">
+              <in>allocTracer.cpp</in>
+              <in>collectedHeap.cpp</in>
+              <in>gcCause.cpp</in>
+            </df>
+            <df name="interpreter">
+              <in>bytecode.cpp</in>
+              <in>bytecodeHistogram.cpp</in>
+              <in>bytecodeInterpreter.cpp</in>
+              <in>bytecodeStream.cpp</in>
+              <in>bytecodeTracer.cpp</in>
+              <in>bytecodes.cpp</in>
+              <in>cppInterpreter.cpp</in>
+              <in>interpreter.cpp</in>
+              <in>interpreterRuntime.cpp</in>
+              <in>invocationCounter.cpp</in>
+              <in>linkResolver.cpp</in>
+              <in>oopMapCache.cpp</in>
+              <in>rewriter.cpp</in>
+              <in>templateInterpreter.cpp</in>
+              <in>templateTable.cpp</in>
+            </df>
+            <df name="libadt">
+              <in>dict.cpp</in>
+              <in>port.cpp</in>
+              <in>set.cpp</in>
+              <in>vectset.cpp</in>
+            </df>
+            <df name="memory">
+              <in>allocation.cpp</in>
+              <in>barrierSet.cpp</in>
+              <in>binaryTreeDictionary.cpp</in>
+              <in>blockOffsetTable.cpp</in>
+              <in>cardTableModRefBS.cpp</in>
+              <in>cardTableRS.cpp</in>
+              <in>collectorPolicy.cpp</in>
+              <in>defNewGeneration.cpp</in>
+              <in>filemap.cpp</in>
+              <in>freeBlockDictionary.cpp</in>
+              <in>freeList.cpp</in>
+              <in>gcLocker.cpp</in>
+              <in>genCollectedHeap.cpp</in>
+              <in>genMarkSweep.cpp</in>
+              <in>genRemSet.cpp</in>
+              <in>generation.cpp</in>
+              <in>generationSpec.cpp</in>
+              <in>heap.cpp</in>
+              <in>heapInspection.cpp</in>
+              <in>iterator.cpp</in>
+              <in>memRegion.cpp</in>
+              <in>metachunk.cpp</in>
+              <in>metaspace.cpp</in>
+              <in>metaspaceCounters.cpp</in>
+              <in>metaspaceShared.cpp</in>
+              <in>oopFactory.cpp</in>
+              <in>referencePolicy.cpp</in>
+              <in>referenceProcessor.cpp</in>
+              <in>resourceArea.cpp</in>
+              <in>sharedHeap.cpp</in>
+              <in>space.cpp</in>
+              <in>specialized_oop_closures.cpp</in>
+              <in>tenuredGeneration.cpp</in>
+              <in>threadLocalAllocBuffer.cpp</in>
+              <in>universe.cpp</in>
+            </df>
+            <df name="oops">
+              <in>annotations.cpp</in>
+              <in>arrayKlass.cpp</in>
+              <in>arrayOop.cpp</in>
+              <in>compiledICHolder.cpp</in>
+              <in>constMethod.cpp</in>
+              <in>constantPool.cpp</in>
+              <in>cpCache.cpp</in>
+              <in>generateOopMap.cpp</in>
+              <in>instanceClassLoaderKlass.cpp</in>
+              <in>instanceKlass.cpp</in>
+              <in>instanceMirrorKlass.cpp</in>
+              <in>instanceOop.cpp</in>
+              <in>instanceRefKlass.cpp</in>
+              <in>klass.cpp</in>
+              <in>klassVtable.cpp</in>
+              <in>markOop.cpp</in>
+              <in>metadata.cpp</in>
+              <in>method.cpp</in>
+              <in>methodCounters.cpp</in>
+              <in>methodData.cpp</in>
+              <in>objArrayKlass.cpp</in>
+              <in>objArrayOop.cpp</in>
+              <in>oop.cpp</in>
+              <in>oopsHierarchy.cpp</in>
+              <in>symbol.cpp</in>
+              <in>typeArrayKlass.cpp</in>
+              <in>typeArrayOop.cpp</in>
+            </df>
+            <df name="opto">
+              <in>addnode.cpp</in>
+              <in>block.cpp</in>
+              <in>buildOopMap.cpp</in>
+              <in>bytecodeInfo.cpp</in>
+              <in>c2_globals.cpp</in>
+              <in>c2compiler.cpp</in>
+              <in>callGenerator.cpp</in>
+              <in>callnode.cpp</in>
+              <in>cfgnode.cpp</in>
+              <in>chaitin.cpp</in>
+              <in>classes.cpp</in>
+              <in>coalesce.cpp</in>
+              <in>compile.cpp</in>
+              <in>connode.cpp</in>
+              <in>divnode.cpp</in>
+              <in>doCall.cpp</in>
+              <in>domgraph.cpp</in>
+              <in>escape.cpp</in>
+              <in>gcm.cpp</in>
+              <in>generateOptoStub.cpp</in>
+              <in>graphKit.cpp</in>
+              <in>idealGraphPrinter.cpp</in>
+              <in>idealKit.cpp</in>
+              <in>ifg.cpp</in>
+              <in>ifnode.cpp</in>
+              <in>indexSet.cpp</in>
+              <in>lcm.cpp</in>
+              <in>library_call.cpp</in>
+              <in>live.cpp</in>
+              <in>locknode.cpp</in>
+              <in>loopPredicate.cpp</in>
+              <in>loopTransform.cpp</in>
+              <in>loopUnswitch.cpp</in>
+              <in>loopnode.cpp</in>
+              <in>loopopts.cpp</in>
+              <in>machnode.cpp</in>
+              <in>macro.cpp</in>
+              <in>matcher.cpp</in>
+              <in>mathexactnode.cpp</in>
+              <in>memnode.cpp</in>
+              <in>mulnode.cpp</in>
+              <in>multnode.cpp</in>
+              <in>node.cpp</in>
+              <in>opcodes.cpp</in>
+              <in>output.cpp</in>
+              <in>parse1.cpp</in>
+              <in>parse2.cpp</in>
+              <in>parse3.cpp</in>
+              <in>parseHelper.cpp</in>
+              <in>phase.cpp</in>
+              <in>phaseX.cpp</in>
+              <in>postaloc.cpp</in>
+              <in>reg_split.cpp</in>
+              <in>regalloc.cpp</in>
+              <in>regmask.cpp</in>
+              <in>rootnode.cpp</in>
+              <in>runtime.cpp</in>
+              <in>split_if.cpp</in>
+              <in>stringopts.cpp</in>
+              <in>subnode.cpp</in>
+              <in>superword.cpp</in>
+              <in>type.cpp</in>
+              <in>vectornode.cpp</in>
+            </df>
+            <df name="prims">
+              <df name="wbtestmethods">
+                <in>parserTests.cpp</in>
+              </df>
+              <in>evmCompat.cpp</in>
+              <in>forte.cpp</in>
+              <in>jni.cpp</in>
+              <in>jniCheck.cpp</in>
+              <in>jniFastGetField.cpp</in>
+              <in>jvm.cpp</in>
+              <in>jvmtiClassFileReconstituter.cpp</in>
+              <in>jvmtiCodeBlobEvents.cpp</in>
+              <in>jvmtiEnv.cpp</in>
+              <in>jvmtiEnvBase.cpp</in>
+              <in>jvmtiEnvThreadState.cpp</in>
+              <in>jvmtiEventController.cpp</in>
+              <in>jvmtiExport.cpp</in>
+              <in>jvmtiExtensions.cpp</in>
+              <in>jvmtiGetLoadedClasses.cpp</in>
+              <in>jvmtiImpl.cpp</in>
+              <in>jvmtiManageCapabilities.cpp</in>
+              <in>jvmtiRawMonitor.cpp</in>
+              <in>jvmtiRedefineClasses.cpp</in>
+              <in>jvmtiTagMap.cpp</in>
+              <in>jvmtiThreadState.cpp</in>
+              <in>jvmtiTrace.cpp</in>
+              <in>jvmtiUtil.cpp</in>
+              <in>methodComparator.cpp</in>
+              <in>methodHandles.cpp</in>
+              <in>nativeLookup.cpp</in>
+              <in>perf.cpp</in>
+              <in>privilegedStack.cpp</in>
+              <in>unsafe.cpp</in>
+              <in>whitebox.cpp</in>
+            </df>
+            <df name="runtime">
+              <in>advancedThresholdPolicy.cpp</in>
+              <in>arguments.cpp</in>
+              <in>atomic.cpp</in>
+              <in>basicLock.cpp</in>
+              <in>biasedLocking.cpp</in>
+              <in>compilationPolicy.cpp</in>
+              <in>deoptimization.cpp</in>
+              <in>dtraceJSDT.cpp</in>
+              <in>fieldDescriptor.cpp</in>
+              <in>fieldType.cpp</in>
+              <in>fprofiler.cpp</in>
+              <in>frame.cpp</in>
+              <in>globals.cpp</in>
+              <in>handles.cpp</in>
+              <in>icache.cpp</in>
+              <in>init.cpp</in>
+              <in>interfaceSupport.cpp</in>
+              <in>java.cpp</in>
+              <in>javaCalls.cpp</in>
+              <in>jniHandles.cpp</in>
+              <in>jniPeriodicChecker.cpp</in>
+              <in>memprofiler.cpp</in>
+              <in>monitorChunk.cpp</in>
+              <in>mutex.cpp</in>
+              <in>mutexLocker.cpp</in>
+              <in>objectMonitor.cpp</in>
+              <in>orderAccess.cpp</in>
+              <in>os.cpp</in>
+              <in>osThread.cpp</in>
+              <in>park.cpp</in>
+              <in>perfData.cpp</in>
+              <in>perfMemory.cpp</in>
+              <in>reflection.cpp</in>
+              <in>reflectionUtils.cpp</in>
+              <in>relocator.cpp</in>
+              <in>rframe.cpp</in>
+              <in>safepoint.cpp</in>
+              <in>serviceThread.cpp</in>
+              <in>sharedRuntime.cpp</in>
+              <in>sharedRuntimeTrans.cpp</in>
+              <in>sharedRuntimeTrig.cpp</in>
+              <in>signature.cpp</in>
+              <in>simpleThresholdPolicy.cpp</in>
+              <in>stackValue.cpp</in>
+              <in>stackValueCollection.cpp</in>
+              <in>statSampler.cpp</in>
+              <in>stubCodeGenerator.cpp</in>
+              <in>stubRoutines.cpp</in>
+              <in>sweeper.cpp</in>
+              <in>synchronizer.cpp</in>
+              <in>task.cpp</in>
+              <in>thread.cpp</in>
+              <in>threadLocalStorage.cpp</in>
+              <in>timer.cpp</in>
+              <in>unhandledOops.cpp</in>
+              <in>vframe.cpp</in>
+              <in>vframeArray.cpp</in>
+              <in>vframe_hp.cpp</in>
+              <in>virtualspace.cpp</in>
+              <in>vmStructs.cpp</in>
+              <in>vmThread.cpp</in>
+              <in>vm_operations.cpp</in>
+              <in>vm_version.cpp</in>
+            </df>
+            <df name="services">
+              <in>attachListener.cpp</in>
+              <in>classLoadingService.cpp</in>
+              <in>diagnosticArgument.cpp</in>
+              <in>diagnosticCommand.cpp</in>
+              <in>diagnosticFramework.cpp</in>
+              <in>dtraceAttacher.cpp</in>
+              <in>g1MemoryPool.cpp</in>
+              <in>gcNotifier.cpp</in>
+              <in>heapDumper.cpp</in>
+              <in>lowMemoryDetector.cpp</in>
+              <in>management.cpp</in>
+              <in>memBaseline.cpp</in>
+              <in>memPtr.cpp</in>
+              <in>memRecorder.cpp</in>
+              <in>memReporter.cpp</in>
+              <in>memSnapshot.cpp</in>
+              <in>memTrackWorker.cpp</in>
+              <in>memTracker.cpp</in>
+              <in>memoryManager.cpp</in>
+              <in>memoryPool.cpp</in>
+              <in>memoryService.cpp</in>
+              <in>nmtDCmd.cpp</in>
+              <in>psMemoryPool.cpp</in>
+              <in>runtimeService.cpp</in>
+              <in>threadService.cpp</in>
+            </df>
+            <df name="shark">
+              <in>sharkBlock.cpp</in>
+              <in>sharkBuilder.cpp</in>
+              <in>sharkCacheDecache.cpp</in>
+              <in>sharkCompiler.cpp</in>
+              <in>sharkConstant.cpp</in>
+              <in>sharkContext.cpp</in>
+              <in>sharkFunction.cpp</in>
+              <in>sharkInliner.cpp</in>
+              <in>sharkIntrinsics.cpp</in>
+              <in>sharkInvariants.cpp</in>
+              <in>sharkMemoryManager.cpp</in>
+              <in>sharkNativeWrapper.cpp</in>
+              <in>sharkRuntime.cpp</in>
+              <in>sharkStack.cpp</in>
+              <in>sharkState.cpp</in>
+              <in>sharkStateScanner.cpp</in>
+              <in>sharkTopLevelBlock.cpp</in>
+              <in>sharkValue.cpp</in>
+              <in>shark_globals.cpp</in>
+            </df>
+            <df name="trace">
+              <in>xinclude.mod</in>
+            </df>
+            <df name="utilities">
+              <in>accessFlags.cpp</in>
+              <in>array.cpp</in>
+              <in>bitMap.cpp</in>
+              <in>constantTag.cpp</in>
+              <in>copy.cpp</in>
+              <in>debug.cpp</in>
+              <in>decoder.cpp</in>
+              <in>decoder_elf.cpp</in>
+              <in>elfFile.cpp</in>
+              <in>elfStringTable.cpp</in>
+              <in>elfSymbolTable.cpp</in>
+              <in>errorReporter.cpp</in>
+              <in>events.cpp</in>
+              <in>exceptions.cpp</in>
+              <in>globalDefinitions.cpp</in>
+              <in>growableArray.cpp</in>
+              <in>hashtable.cpp</in>
+              <in>histogram.cpp</in>
+              <in>intHisto.cpp</in>
+              <in>numberSeq.cpp</in>
+              <in>ostream.cpp</in>
+              <in>preserveException.cpp</in>
+              <in>quickSort.cpp</in>
+              <in>sizes.cpp</in>
+              <in>taskqueue.cpp</in>
+              <in>ticks.cpp</in>
+              <in>utf8.cpp</in>
+              <in>vmError.cpp</in>
+              <in>workgroup.cpp</in>
+              <in>xmlstream.cpp</in>
+              <in>yieldingWorkgroup.cpp</in>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="test">
+        <df name="runtime">
+          <df name="6929067">
+            <in>invoke.c</in>
+          </df>
+          <df name="7107135">
+            <in>test.c</in>
+          </df>
+          <df name="InitialThreadOverflow">
+            <in>invoke.cxx</in>
+          </df>
+          <df name="jsig">
+            <in>TestJNI.c</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>echo build</buildCommand>
+          <cleanCommand>echo clean</cleanCommand>
+          <executablePath>../build/macosx-x86_64-normal-server-fastdebug/images/j2sdk-image/bin/java</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="agent/src/os/bsd/BsdDebuggerLocal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="agent/src/os/bsd/MacosxDebuggerLocal.m"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="agent/src/os/bsd/StubDebuggerLocal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="agent/src/os/bsd/libproc_impl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/bsd/ps_core.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/bsd/ps_proc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/bsd/salibelf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/bsd/symtab.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/bsd/test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/linux/LinuxDebuggerLocal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="agent/src/os/linux/libproc_impl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/linux/ps_core.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/linux/ps_proc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/linux/salibelf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/linux/symtab.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/linux/test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="agent/src/os/solaris/proc/saproc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="agent/src/os/solaris/proc/saproc_audit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="agent/src/os/win32/windbg/sawindbg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="agent/src/share/native/sadis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/args.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/assembler_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/bytecodeInterpreter_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/bytecodes_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c1_CodeStubs_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c1_FpuStackSim_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c1_FrameMap_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c1_LIRAssembler_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c1_LIRGenerator_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c1_LinearScan_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c1_MacroAssembler_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c1_Runtime1_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/c2_init_sparc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/compiledIC_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/cppInterpreter_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/debug_sparc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/depChecker_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/frame_sparc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/icBuffer_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/icache_sparc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/interp_masm_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/interpreterRT_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/interpreter_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/jniFastGetField_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/macroAssembler_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/metaspaceShared_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/methodHandles_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/nativeInst_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/register_definitions_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/register_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/relocInfo_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/runtime_sparc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/sharedRuntime_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/stubGenerator_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/stubRoutines_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/templateInterpreter_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/templateTable_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/vm_version_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/vmreg_sparc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/sparc/vm/vtableStubs_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/assembler_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/bytecodeInterpreter_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/bytecodes_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c1_CodeStubs_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c1_FpuStackSim_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c1_FrameMap_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c1_LIRAssembler_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c1_LIRGenerator_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c1_LinearScan_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c1_MacroAssembler_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c1_Runtime1_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/c2_init_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/compiledIC_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/cppInterpreter_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/debug_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/depChecker_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/frame_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/icBuffer_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/icache_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/interp_masm_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/interp_masm_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/interp_masm_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/interpreterRT_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/interpreterRT_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/interpreter_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/interpreter_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/jniFastGetField_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/jniFastGetField_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/macroAssembler_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/metaspaceShared_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/metaspaceShared_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/methodHandles_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/nativeInst_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/register_definitions_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/register_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/relocInfo_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/runtime_x86_32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/runtime_x86_64.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/sharedRuntime_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/sharedRuntime_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/stubGenerator_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/stubGenerator_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/stubRoutines_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/stubRoutines_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/stubRoutines_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/templateInterpreter_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/templateInterpreter_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/templateTable_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/templateTable_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/vm_version_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/vmreg_x86.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/vtableStubs_x86_32.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/x86/vm/vtableStubs_x86_64.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/assembler_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/bytecodeInterpreter_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/bytecodes_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/compiledIC_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/cppInterpreter_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/debug_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/depChecker_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/disassembler_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/frame_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/icBuffer_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/icache_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/interp_masm_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/interpreterRT_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/interpreter_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/jniFastGetField_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/metaspaceShared_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/methodHandles_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/nativeInst_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/register_definitions_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/register_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/relocInfo_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/sharedRuntime_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/stack_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/stubGenerator_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/stubRoutines_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/templateInterpreter_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/templateTable_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/vm_version_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/vmreg_zero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu/zero/vm/vtableStubs_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/bsd/dtrace/generateJvmOffsets.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/bsd/dtrace/generateJvmOffsetsMain.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/os/bsd/dtrace/jvm_dtrace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/os/bsd/dtrace/libjvm_db.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/attachListener_bsd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/decoder_machO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/dtraceJSDT_bsd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/jsig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/jvm_bsd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/mutex_bsd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/osThread_bsd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/os_bsd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/perfMemory_bsd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/stubRoutines_bsd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/threadCritical_bsd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/bsd/vm/vmError_bsd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/attachListener_linux.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/decoder_linux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/dtraceJSDT_linux.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/jsig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/jvm_linux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/mutex_linux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/osThread_linux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/os_linux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/perfMemory_linux.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/stubRoutines_linux.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/threadCritical_linux.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/linux/vm/vmError_linux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/posix/vm/os_posix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/solaris/add_gnu_debuglink/add_gnu_debuglink.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/dtrace/generateJvmOffsets.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/dtrace/generateJvmOffsetsMain.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/dtrace/jvm_dtrace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/os/solaris/dtrace/libjvm_db.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/os/solaris/fix_empty_sec_hdr_flags/fix_empty_sec_hdr_flags.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/attachListener_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/decoder_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/dtraceJSDT_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/jsig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/jvm_solaris.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/mutex_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/osThread_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/os_solaris.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/perfMemory_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/stubRoutines_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/threadCritical_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/solaris/vm/vmError_solaris.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/attachListener_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/decoder_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/dtraceJSDT_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/jvm_windows.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/mutex_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/osThread_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/os_windows.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/perfMemory_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/stubRoutines_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/threadCritical_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os/windows/vm/vmError_windows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_x86/vm/assembler_bsd_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_x86/vm/bsd_x86_32.s" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_x86/vm/bsd_x86_64.s" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_x86/vm/os_bsd_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_x86/vm/threadLS_bsd_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_x86/vm/thread_bsd_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_x86/vm/vm_version_bsd_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_zero/vm/assembler_bsd_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_zero/vm/os_bsd_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_zero/vm/threadLS_bsd_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_zero/vm/thread_bsd_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/bsd_zero/vm/vm_version_bsd_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_sparc/vm/linux_sparc.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_sparc/vm/os_linux_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_sparc/vm/threadLS_linux_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_sparc/vm/thread_linux_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_sparc/vm/vm_version_linux_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_x86/vm/assembler_linux_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_x86/vm/linux_x86_32.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_x86/vm/linux_x86_64.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_x86/vm/os_linux_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_x86/vm/threadLS_linux_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_x86/vm/thread_linux_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_x86/vm/vm_version_linux_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_zero/vm/assembler_linux_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_zero/vm/os_linux_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_zero/vm/threadLS_linux_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_zero/vm/thread_linux_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/linux_zero/vm/vm_version_linux_zero.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_sparc/vm/os_solaris_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_sparc/vm/solaris_sparc.il"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_sparc/vm/solaris_sparc.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_sparc/vm/threadLS_solaris_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_sparc/vm/thread_solaris_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_sparc/vm/vm_version_solaris_sparc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/assembler_solaris_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/os_solaris_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/solaris_x86_32.il"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/solaris_x86_32.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/solaris_x86_64.il"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/solaris_x86_64.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/threadLS_solaris_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/thread_solaris_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/solaris_x86/vm/vm_version_solaris_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/windows_x86/vm/assembler_windows_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/windows_x86/vm/os_windows_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/windows_x86/vm/threadLS_windows_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/windows_x86/vm/thread_windows_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/os_cpu/windows_x86/vm/vm_version_windows_x86.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/tools/hsdis/hsdis-demo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/share/tools/hsdis/hsdis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/adlparse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/archDesc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/arena.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/dfa.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/dict2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/filebuff.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/forms.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/formsopt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/formssel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/output_c.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/adlc/output_h.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/asm/assembler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/asm/codeBuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/asm/register.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_CFGPrinter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_Canonicalizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_Compilation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_Compiler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_Defs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_FrameMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_GraphBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_IR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_Instruction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_InstructionPrinter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_LIR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_LIRAssembler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_LIRGenerator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_LinearScan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_Optimizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_RangeCheckElimination.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_Runtime1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_ValueMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_ValueSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_ValueStack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_ValueType.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/c1/c1_globals.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/bcEscapeAnalyzer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciArrayKlass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciBaseObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciCallSite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciConstant.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciConstantPoolCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciEnv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciExceptionHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciField.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciFlags.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciInstance.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciInstanceKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciKlass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciMemberName.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciMetadata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciMethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciMethodBlocks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciMethodData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciMethodHandle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciNullObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciObjArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciObjArrayKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciObjectFactory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciReplay.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciSignature.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciStreams.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciSymbol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciType.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciTypeArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciTypeArrayKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciTypeFlow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/ci/ciUtilities.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/altHashing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/bytecodeAssembler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/classFileError.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/classFileParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/classFileStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/classLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/classLoaderData.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/defaultMethods.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/dictionary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/javaAssertions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/javaClasses.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/loaderConstraints.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/metadataOnStackMark.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/placeholders.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/resolutionErrors.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/stackMapFrame.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/stackMapTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/symbolTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/systemDictionary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/verificationType.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/verifier.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/classfile/vmSymbols.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/code/codeBlob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/codeCache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/compiledIC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/compressedStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/code/debugInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/debugInfoRec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/dependencies.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/exceptionHandlerTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/code/icBuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/location.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/nmethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/oopRecorder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/pcDesc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/relocInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/scopeDesc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/stubs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/vmreg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/code/vtableStubs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/compiler/abstractCompiler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/compiler/compileBroker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/compiler/compileLog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/compiler/compilerOracle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/compiler/disassembler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/compiler/methodLiveness.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/compiler/oopMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/adaptiveFreeList.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/cmsAdaptiveSizePolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/cmsCollectorPolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/cmsGCAdaptivePolicyCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/cmsLockVerifier.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/compactibleFreeListSpace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/concurrentMarkSweepGeneration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/concurrentMarkSweepThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/freeChunk.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/promotionInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/concurrentMarkSweep/vmCMSOperations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/collectionSetChooser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/concurrentG1Refine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/concurrentG1RefineThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/concurrentMark.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/concurrentMarkThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/dirtyCardQueue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1AllocRegion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1BiasedArray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1BlockOffsetTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1CardCounts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1CollectedHeap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1CollectorPolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1ErgoVerbose.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1GCPhaseTimes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1HRPrinter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1HotCardCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1Log.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1MMUTracker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1MarkSweep.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1MonitoringSupport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1RemSet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1RemSetSummary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1SATBCardTableModRefBS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/g1_globals.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/heapRegion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/heapRegionRemSet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/heapRegionSeq.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/heapRegionSet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/heapRegionSets.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/ptrQueue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/satbQueue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/sparsePRT.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/survRateGroup.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/g1/vm_operations_g1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parNew/asParNewGeneration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parNew/parCardTableModRefBS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parNew/parNewGeneration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/adjoiningGenerations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/adjoiningVirtualSpaces.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/asPSOldGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/asPSYoungGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/cardTableExtension.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/gcTaskManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/gcTaskThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/generationSizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/objectStartArray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/parMarkBitMap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/parallelScavengeHeap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/pcTasks.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psAdaptiveSizePolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psCompactionManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psGCAdaptivePolicyCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psGenerationCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psMarkSweep.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psMarkSweepDecorator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psOldGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psParallelCompact.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psPromotionLAB.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psPromotionManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psScavenge.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psTasks.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psVirtualspace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/psYoungGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/parallelScavenge/vmPSOperations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/adaptiveSizePolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/ageTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/allocationStats.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/cSpaceCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/collectorCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/concurrentGCThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gSpaceCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gcAdaptivePolicyCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gcPolicyCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gcStats.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gcTimer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gcTrace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gcTraceSend.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gcTraceTime.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/gcUtil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/generationCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/hSpaceCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/immutableSpace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/markSweep.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/mutableNUMASpace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/mutableSpace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/objectCountEventSender.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/parGCAllocBuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/spaceCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/spaceDecorator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_implementation/shared/vmGCOperations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_interface/allocTracer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_interface/collectedHeap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/gc_interface/gcCause.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/bytecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/bytecodeHistogram.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/bytecodeInterpreter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/bytecodeStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/bytecodeTracer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/bytecodes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/cppInterpreter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/interpreter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/interpreterRuntime.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/invocationCounter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/linkResolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/oopMapCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/rewriter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/templateInterpreter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/interpreter/templateTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/libadt/dict.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/libadt/port.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/libadt/set.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/libadt/vectset.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/allocation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/barrierSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/binaryTreeDictionary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/blockOffsetTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/cardTableModRefBS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/cardTableRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/collectorPolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/defNewGeneration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/filemap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/freeBlockDictionary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/freeList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/gcLocker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/genCollectedHeap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/genMarkSweep.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/genRemSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/generation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/generationSpec.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/heap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/heapInspection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/iterator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/memRegion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/metachunk.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/metaspace.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/metaspaceCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/metaspaceShared.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/oopFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/referencePolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/referenceProcessor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/resourceArea.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/sharedHeap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/space.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/specialized_oop_closures.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/tenuredGeneration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/threadLocalAllocBuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/memory/universe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/annotations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/arrayKlass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/arrayOop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/compiledICHolder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/constMethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/constantPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/cpCache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/generateOopMap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/instanceClassLoaderKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/instanceKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/instanceMirrorKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/instanceOop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/instanceRefKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/klass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/klassVtable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/markOop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/metadata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/method.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/methodCounters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/methodData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/objArrayKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/objArrayOop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/oop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/oopsHierarchy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/symbol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/typeArrayKlass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/oops/typeArrayOop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/addnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/buildOopMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/bytecodeInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/c2_globals.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/c2compiler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/callGenerator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/callnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/cfgnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/chaitin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/classes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/coalesce.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/compile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/connode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/divnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/doCall.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/domgraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/escape.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/gcm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/generateOptoStub.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/graphKit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/idealGraphPrinter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/idealKit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/ifg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/ifnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/indexSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/lcm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/library_call.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/live.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/locknode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/loopPredicate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/loopTransform.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/loopUnswitch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/loopnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/loopopts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/machnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/macro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/matcher.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/mathexactnode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/memnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/mulnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/multnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/opcodes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/output.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/parse1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/parse2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/parse3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/parseHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/phase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/phaseX.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/postaloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/reg_split.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/regalloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/regmask.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/rootnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/runtime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/split_if.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/stringopts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/subnode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/superword.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/type.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/opto/vectornode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/evmCompat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/forte.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jni.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jniCheck.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jniFastGetField.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiClassFileReconstituter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiCodeBlobEvents.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiEnv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiEnvBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiEnvThreadState.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiEventController.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiExport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiExtensions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiGetLoadedClasses.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiManageCapabilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiRawMonitor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiRedefineClasses.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiTagMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiThreadState.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiTrace.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/jvmtiUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/methodComparator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/methodHandles.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/nativeLookup.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/perf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/privilegedStack.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/unsafe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/wbtestmethods/parserTests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/prims/whitebox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/advancedThresholdPolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/arguments.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/atomic.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/basicLock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/biasedLocking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/compilationPolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/deoptimization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/dtraceJSDT.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/fieldDescriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/fieldType.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/fprofiler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/frame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/globals.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/handles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/icache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/init.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/interfaceSupport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/java.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/javaCalls.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/jniHandles.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/jniPeriodicChecker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/memprofiler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/monitorChunk.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/mutex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/mutexLocker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/objectMonitor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/orderAccess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/os.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/osThread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/park.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/perfData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/perfMemory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/reflection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/reflectionUtils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/relocator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/rframe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/safepoint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/serviceThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/sharedRuntime.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/sharedRuntimeTrans.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/sharedRuntimeTrig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/signature.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/simpleThresholdPolicy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/stackValue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/stackValueCollection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/statSampler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/stubCodeGenerator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/stubRoutines.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/sweeper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/synchronizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/task.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/threadLocalStorage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/unhandledOops.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/vframe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/vframeArray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/vframe_hp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/virtualspace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/vmStructs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/vmThread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/vm_operations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/runtime/vm_version.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/attachListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/classLoadingService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/diagnosticArgument.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/diagnosticCommand.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/diagnosticFramework.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/dtraceAttacher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/g1MemoryPool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/gcNotifier.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/heapDumper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/lowMemoryDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/management.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memBaseline.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memPtr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memRecorder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memReporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memSnapshot.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memTrackWorker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memTracker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memoryManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memoryPool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/memoryService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/nmtDCmd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/services/psMemoryPool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/runtimeService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/services/threadService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkBlock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkCacheDecache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkCompiler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkConstant.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkContext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkFunction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkInliner.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkIntrinsics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkInvariants.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkMemoryManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkNativeWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkRuntime.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkStack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkStateScanner.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkTopLevelBlock.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/sharkValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/shark/shark_globals.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/trace/xinclude.mod" ex="false" tool="2" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/accessFlags.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/array.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/bitMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/constantTag.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/copy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/debug.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/decoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/decoder_elf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/elfFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/elfStringTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/elfSymbolTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/errorReporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/events.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/exceptions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/globalDefinitions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/growableArray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/hashtable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/histogram.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/intHisto.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/numberSeq.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/ostream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/preserveException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/quickSort.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/sizes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/taskqueue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/ticks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/utf8.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/vmError.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/workgroup.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/xmlstream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/share/vm/utilities/yieldingWorkgroup.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="test/runtime/6929067/invoke.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test/runtime/7107135/test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test/runtime/InitialThreadOverflow/invoke.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="test/runtime/jsig/TestJNI.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

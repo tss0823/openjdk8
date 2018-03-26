@@ -1,0 +1,17 @@
+.idea/
+.settings
+.DS_Store
+.settings/
+.project
+.classpath
+*.class
+.iml
+.orig
+*.iml
+*.orig
+.rebel*
+main.c
+build*
+abc.txt
+CMakeLists.txt
+cmake-build-debug
